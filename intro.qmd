@@ -3,3 +3,9 @@
 This is a book created from markdown and executable code.
 
 See @knuth84 for additional discussion of literate programming.
+
+Это русский текст с матетическими символами типа таких: $X \sim \mathcal{N}(0, 1)$
+
+$$
+\overline x = \frac{1}{n} \sum_{i=1}^n x_i
+$$
