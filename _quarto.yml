@@ -1,0 +1,31 @@
+project:
+  type: book
+  output-dir: "docs"
+  
+
+book:
+  output-file: "wolm-sdarp-book0"
+  title: "Мир линейных моделей"
+  subtitle: "0 | Математика для анализа данных"
+  author: "А. Н. Ангельгардт"
+  date: "10/26/2026"
+  chapters:
+    - index.qmd
+    - part: "Часть 1"
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  typst:
+    toc: true
+    number-sections: true
+
+
+
