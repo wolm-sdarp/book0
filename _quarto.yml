@@ -1,8 +1,10 @@
 project:
   type: book
   output-dir: "docs"
+  
 
 book:
+  output-file: "wolm-sdarp-book0"
   title: "Мир линейных моделей"
   subtitle: "0 | Математика для анализа данных"
   author: "А. Н. Ангельгардт"
@@ -21,8 +23,9 @@ format:
     theme:
       - cosmo
       - brand
-  pdf:
-    documentclass: scrreprt
+  typst:
+    toc: true
+    number-sections: true
 
 
 
